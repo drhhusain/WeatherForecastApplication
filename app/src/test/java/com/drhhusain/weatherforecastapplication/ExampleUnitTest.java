@@ -1,4 +1,4 @@
-package com.drhhusain.weatherforcast;
+package com.drhhusain.weatherforecastapplication;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.drhhusain.weatherforcast">
+    package="com.drhhusain.weatherforecastapplication">
 
     <!--  Permission access for internet and location  -->
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WeatherForcast">
         <activity
-            android:name=".MainActivity"
+            android:name="com.drhhusain.weatherforecastapplication.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
